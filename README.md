@@ -97,7 +97,7 @@ Keep a separate backup of important recordings. A working SSD and a backup serve
 
 An early native recorder is implemented. A local build has opened in Final Cut Pro 12.3 on macOS 26.5 and recorded 1920×1080 H.264 video with 48 kHz mono AAC audio from a Logitech C920e and Scarlett Solo to an external APFS SSD.
 
-Preview sizing and frame-rate fixes are undergoing host verification. Timeline drag-and-drop still needs an end-to-end check. This is a development preview, not a stable release.
+Preview sizing and frame-rate fixes are undergoing host verification. An AppKit layout check confirms the recorder view fills a smaller host and follows resizing; the latest live preview and timeline drag-and-drop still need end-to-end checks. This is a development preview, not a stable release.
 
 Current scope is a single camera and microphone, live preview and metering, direct-to-folder capture, and draggable takes. There is no automatic timeline insertion, multicamera capture, screen recording, or signed release installer yet.
 
@@ -106,6 +106,7 @@ Current scope is a single camera and microphone, live preview and metering, dire
 - [Apple: building a workflow extension](https://developer.apple.com/documentation/professional-video-applications/building-a-workflow-extension)
 - [Apple: drag-and-drop into Final Cut Pro](https://developer.apple.com/documentation/professional-video-applications/supporting-drag-and-drop-for-data-sent-to-final-cut-pro)
 - [CommandPost's workflow extension source](https://github.com/CommandPost/CommandPost-App/tree/master/CommandPost%20Workflow%20Extension), consulted for host setup, view layout, and lifecycle patterns. This recorder's implementation is original.
+- [Marker Data's workflow extension source](https://github.com/TheAcharya/MarkerData/tree/main/Source/Marker%20Data/Workflow%20Extension), consulted for a Swift controller and constraint-based content layout.
 
 ## Tools
 
