@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+ <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#14111e"/><stop offset="1" stop-color="#232038"/></linearGradient></defs>
+ <rect width="1200" height="390" rx="24" fill="url(#bg)"/>
+ <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#faf8ff">
+ <text x="56" y="72" font-size="15" letter-spacing="3" fill="#bfb3dc">FINAL CUT TOOLS / RECORDER</text>
+ <text x="56" y="126" font-size="42" font-weight="700">Your next take is one button away.</text>
+ <g transform="translate(56,171)">
+  <rect width="324" height="160" rx="16" fill="#312b46" stroke="#514763"/>
+  <circle cx="38" cy="42" r="10" fill="#ff5c74"/>
+  <text x="62" y="50" font-size="24" font-weight="600">Record</text>
+  <text x="25" y="95" font-size="17" fill="#d4cce4">Your camera. Your microphone.</text>
+  <text x="25" y="123" font-size="17" fill="#d4cce4">Inside Final Cut Pro.</text>
+ </g>
+ <text x="394" y="261" font-size="26" fill="#aa98c9">→</text>
+ <g transform="translate(438,171)">
+  <rect width="324" height="160" rx="16" fill="#312b46" stroke="#514763"/>
+  <text x="25" y="50" font-size="24" font-weight="600">Save to your drive</text>
+  <text x="25" y="95" font-size="17" fill="#d4cce4">Choose a folder once.</text>
+  <text x="25" y="123" font-size="17" fill="#d4cce4">Keep the next take close.</text>
+ </g>
+ <text x="776" y="261" font-size="26" fill="#aa98c9">→</text>
+ <g transform="translate(820,171)">
+  <rect width="324" height="160" rx="16" fill="#312b46" stroke="#514763"/>
+  <text x="25" y="50" font-size="24" font-weight="600">Drop. Edit.</text>
+  <rect x="25" y="78" width="130" height="34" rx="5" fill="#8762d6"/>
+  <rect x="160" y="78" width="85" height="34" rx="5" fill="#594578"/>
+  <text x="25" y="140" font-size="17" fill="#d4cce4">Drag your take to the timeline.</text>
+ </g>
+ </g>
+</svg>

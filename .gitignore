@@ -1,0 +1,12 @@
+.DS_Store
+build/
+.build/
+*.app
+*.appex
+*.framework
+*.mov
+*.mp4
+*.m4a
+.env*
+__pycache__/
+local/
